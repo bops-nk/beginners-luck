@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Payment Procedure.</title>
+</head>
+<body style="background-image: url('images/q.jpg'); background-position: right">
+<h2>Please enter the particulars</h2>
+<table>
+<tr>
+<td>Student name</td>
+<td><input type="text" name="name" size="30"</td>
+</tr>
+<tr>
+<td>Street Address:</td>
+<td><input type="text" name="street" size="30"</td>
+</tr>
+<tr>
+<td>City,State,Zip:</td>
+<td><input type="text" name="city" size="30"</td></tr></table>
+<br />
+
+<table border="border">
+<tr>
+<th>Fee type</th>
+<th>Amount</th>
+<th>Semester</th></tr>
+<tr>
+<td>Hostel fee</td>
+<td>Rs 10000</td>
+<td><input type="text" name="hostel" size=:"2"</td></tr>
+<tr>
+<td>Exam fee</td>
+<td>Rs 560</td>
+<td><input type="text" name="exam" size:"2"</td>
+</tr>
+<tr>
+<td>College fee</td>
+<td>Rs 52,100</td>
+<td> <input type="text" name="college" size:"2"</td>
+</tr>
+<tr>
+<td>Fund Fee</td>
+<td>Rs 10000</td>
+<td><input type="text" name="fund" size:"2"</td>
+</tr>
+</table>
+<h3>Payment method :</h3>
+<p><label><input type="radio" name:"payment" value:"VISA" checked="checked" />VISA</label><br />
+<label><input type="radio" name:"payment" value:"MASTER CARD" />MASTER CARD</label><br />
+<label><input type="radio" name:"payment" value:"RUPAY" />RUPAY</label><br />
+<label><input type="radio" name:"payment" value:"PAYPAL" />PAYPAL</label><br /></p>
+<p><input type="submit" value="submit Order" /></p>
+<input type="reset" value="Clear order form" /></p>
+</form>
+</body>
+</html>
